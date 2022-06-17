@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cabeçalho {
+
+    position: absolute;
+    width: 124px;
+
+
+}
+
+.texto {
+
+    text-align: left;
+
+}
+
+.card {
+
+    background-color: #a9a9a9;
+    width: 400px;
+    border-radius: 12px;
+    margin-top: 200px;
+    overflow: hidden;
+    position: relative;
+            
+}
+
+.card .card-banner {
+
+    width: 100%;
+    /* border-radius: 12px; */
+
+}
+
+.card .card-favorite {
+
+    width: 40px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+}
+
+.card .card-profile {
+
+    width: 140px;
+    height: 140px;
+    margin: -70px auto 12px;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+button {
+
+    width: 145px;
+    height: 54px;
+
+    box-sizing: border-box;
+
+}
+
+h1 {
+
+    text-align: center;
+}
