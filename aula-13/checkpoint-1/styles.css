@@ -16,6 +16,7 @@
     background-color: #2a8014;
     height: fit-content;
     display: flex;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
@@ -86,13 +87,16 @@
 
 }
 
-div .card-curiosidades img {
+.curiosidades-img div {
 
-    width: 320px;
-    height: 400px;
+    width: 20%;
+    height: 300px;
     margin: 40px;
     border-radius: 12px;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 
 }
 
